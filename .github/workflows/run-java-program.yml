@@ -1,0 +1,19 @@
+name: Run Java Program
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build and Run Java Program
+        run: |
+          javac Main.java
+          java Main
