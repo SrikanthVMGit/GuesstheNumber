@@ -5,38 +5,28 @@ The program is a number guessing game implemented in Java. It allows the user to
 
 This game is a simple and interactive way to test your guessing skills and have fun while trying to guess the correct number within a limited number of attempts.
 
-### Program Explaination
-* The code begins with importing the necessary classes: Random and Scanner.
+# Playing Guide
+* Run the program: [![Run Java Program](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml)](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml)
 
-* The main method is the entry point of the program.
 
-* A Scanner object named reader is created to read input from the user.
+* The game begins: The program will display a prompt asking you to guess a number between 1 and 100.
 
-* The variable play is initialized as "yes". This variable controls the game loop and determines if the user wants to play again.
+* Make a guess: Enter your guess using the keyboard and press Enter.
 
-* The program enters a while loop that continues as long as play is equal to "yes".
+* Feedback on your guess: The program will provide feedback on your guess. It will inform you if your guess is too high or too low compared to the randomly generated number.
 
-* Inside the game loop, a random number between 0 and 99 is generated using the Random class and stored in the variable randNum.
+* Repeat steps 3 and 4: Based on the feedback, make another guess by entering a new number and press Enter. The program will continue to provide feedback until you guess the correct number.
 
-* The variables guess and tries are initialized. guess is set to -1 initially to ensure the first guess is not equal to the random number. tries keeps track of the number of attempts.
+* Guess correctly: Once you guess the correct number, the program will display a success message along with the number of tries it took.
 
-* Another while loop begins, which continues until the user's guess (guess) matches the random number (randNum).
+* Play again or exit: The program will ask you if you want to play again. Enter "yes" if you want to play another round, or enter "no" to exit the game.
 
-* Inside the inner loop, the program prompts the user to enter a guess using System.out.print, and reads the input using reader.nextInt().
+* Repeat steps 2-7: If you choose to play again, the game will start over, and you can continue guessing numbers and trying to improve your performance.
 
-* After each guess, the program compares the user's guess with the random number using conditional statements (if, else if, else).
+* End the game: When you decide to exit the game by entering "no," the program will terminate, and you can choose to run it again later if desired.
 
-* If the guess is correct, the program displays a success message and the number of tries it took. It then asks the user if they want to play again by reading the input and assigning it to the play variable.
+Remember, the goal of the game is to guess the randomly generated number correctly within the fewest number of attempts possible. Have fun and challenge yourself to improve your guessing skills with each round!
 
-* If the guess is too high, the program displays a message indicating that the guess is too high.
-
-* If the guess is too low, the program displays a message indicating that the guess is too low.
-
-* Once the correct number is guessed, the inner loop ends, and the program goes back to the top of the outer loop.
-
-* If the user chooses not to play again by entering "no", the outer loop terminates, and the program ends.
-
-* Finally, the reader is closed to release system resources.
 
 ### Conclusion
 In conclusion, the provided code implements a simple number guessing game in Java. It prompts the user to guess a randomly generated number between 1 and 100. The program provides feedback on whether the guess is too high or too low and continues until the user correctly guesses the number. After each successful guess, the program displays the number of tries it took. The user has the option to play the game again or exit.
