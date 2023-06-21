@@ -2,6 +2,9 @@ name: Run Java Program
 
 on:
   workflow_dispatch:
+    inputs:
+      run:
+        description: 'Run the Java program'
 
 jobs:
   build:
@@ -13,7 +16,8 @@ jobs:
         with:
           java-version: '11'
 
-      - name: Build and Run Java Program
-        run: |
-          javac Main.java
-          java Main
+      - name: Compile Java Program
+        run: javac Main.java
+
+      - name: Run Java Program
+        run: java Main
