@@ -26,4 +26,10 @@ The game demonstrates the usage of basic Java concepts such as loops, conditiona
 
 Overall, the program showcases a simple but fun game that showcases the capabilities of Java programming and provides an entertaining experience for the users.
 
+## Running the Java Program
+
+You can run the Java program by clicking the button below.
+
+[![Run Java Program](https://github.com/{username}/{repository}/actions/workflows/run-java-program.yml/badge.svg)](https://github.com/{username}/{repository}/actions/workflows/run-java-program.yml)
+
 
