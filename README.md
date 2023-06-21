@@ -6,7 +6,7 @@ The program is a number guessing game implemented in Java. It allows the user to
 This game is a simple and interactive way to test your guessing skills and have fun while trying to guess the correct number within a limited number of attempts.
 
 # Playing Guide
-* Run the program: [![Run Java Program](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml)](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml)
+* Run the program: [![Play Game](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml/badge.svg)](https://github.com/SrikanthVMGit/GuesstheNumber/actions/workflows/run-java-program.yml)
 
 
 * The game begins: The program will display a prompt asking you to guess a number between 1 and 100.
