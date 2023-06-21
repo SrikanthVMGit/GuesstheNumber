@@ -1,0 +1,29 @@
+## Playing guide
+Run the program: Compile and run the Java program using your preferred Java development environment or command line.
+
+The game begins: The program will display a prompt asking you to guess a number between 1 and 100.
+
+Make a guess: Enter your guess using the keyboard and press Enter.
+
+Feedback on your guess: The program will provide feedback on your guess. It will inform you if your guess is too high or too low compared to the randomly generated number.
+
+Repeat steps 3 and 4: Based on the feedback, make another guess by entering a new number and press Enter. The program will continue to provide feedback until you guess the correct number.
+
+Guess correctly: Once you guess the correct number, the program will display a success message along with the number of tries it took.
+
+Play again or exit: The program will ask you if you want to play again. Enter "yes" if you want to play another round, or enter "no" to exit the game.
+
+Repeat steps 2-7: If you choose to play again, the game will start over, and you can continue guessing numbers and trying to improve your performance.
+
+End the game: When you decide to exit the game by entering "no," the program will terminate, and you can choose to run it again later if desired.
+
+Remember, the goal of the game is to guess the randomly generated number correctly within the fewest number of attempts possible. Have fun and challenge yourself to improve your guessing skills with each round!
+
+### Conclusion
+In conclusion, the provided code implements a simple number guessing game in Java. It prompts the user to guess a randomly generated number between 1 and 100. The program provides feedback on whether the guess is too high or too low and continues until the user correctly guesses the number. After each successful guess, the program displays the number of tries it took. The user has the option to play the game again or exit.
+
+The game demonstrates the usage of basic Java concepts such as loops, conditional statements, user input, and random number generation. It provides an interactive and engaging experience, challenging the player to make educated guesses and improve their guessing skills. It can be further expanded and customized with additional features and enhancements to make it more enjoyable.
+
+Overall, the program showcases a simple but fun game that showcases the capabilities of Java programming and provides an entertaining experience for the users.
+
+
